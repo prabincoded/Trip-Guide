@@ -11,11 +11,11 @@ import { Button } from "@material-ui/core";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SidebarRow Icon={EmojiFlagIcon} title="Pages" />
-      <SidebarRow Icon={PeopleIcon} title="Friends" />
-      <SidebarRow Icon={ChatIcon} title="Messenger" />
-      <SidebarRow Icon={StoreFrontIcon} title="Marketplace" />
-      <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
+      <SidebarRow Icon={EmojiFlagIcon} title="Category" />
+      <SidebarRow Icon={PeopleIcon} title="Events" />
+      <SidebarRow Icon={ChatIcon} title="Hire Guide" />
+      <SidebarRow Icon={StoreFrontIcon} title="Support" />
+      <SidebarRow Icon={VideoLibraryIcon} title="Blogs" />
       <Button variant="outlined" className="sidebar__signout" fullWidth>
         Sign Out
       </Button>
