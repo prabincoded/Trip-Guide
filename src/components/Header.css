@@ -24,6 +24,7 @@
   background-color: #eff2f5;
   color: #2e81f4;
   cursor: pointer;
+  border-radius: 10px;
 }
 .header__right {
   display: flex;
