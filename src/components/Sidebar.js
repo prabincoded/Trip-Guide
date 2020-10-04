@@ -11,6 +11,10 @@ import { Button } from "@material-ui/core";
 function Sidebar() {
   return (
     <div className="sidebar">
+      <SidebarRow
+        src="https://qph.fs.quoracdn.net/main-qimg-dc10f11e369c2c6f3ed5cc8c446b3cce"
+        title="Pragya Jaiswal"
+      />
       <SidebarRow Icon={EmojiFlagIcon} title="Category" />
       <SidebarRow Icon={PeopleIcon} title="Events" />
       <SidebarRow Icon={ChatIcon} title="Hire Guide" />

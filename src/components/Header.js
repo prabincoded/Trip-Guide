@@ -1,16 +1,14 @@
 import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Header.css";
+import logo from "../images/app-logo.png";
 
 function Header() {
+  const applogo = "../images/app-logo.png";
   return (
     <div className="header">
       <div className="header__left">
-        <img
-          className="header__logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png"
-          alt=""
-        />
+        <img className="header__logo" src={logo} alt="" />
       </div>
       <div className="header__right">
         <h3>Home</h3>
