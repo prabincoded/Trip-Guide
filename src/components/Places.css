@@ -1,0 +1,25 @@
+.places {
+  width: 270px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.places__thumbnail {
+  height: 180px;
+  width: 280px;
+  object-fit: contain;
+}
+
+.places__info {
+  margin-left: 15px;
+}
+.places__info > h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.places__info > p {
+  font-size: 14px;
+  color: gray;
+}

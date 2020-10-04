@@ -34,3 +34,22 @@
   background-color: lightgray;
   border-radius: 10px;
 }
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+  outline: 0;
+}
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  color: gray;
+}
