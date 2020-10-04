@@ -1,11 +1,16 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h2>Home Page</h2>
+      <Header />
+      <div className="app__body">
+        <Sidebar />
+      </div>
     </div>
   );
 }
