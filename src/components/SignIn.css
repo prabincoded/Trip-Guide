@@ -1,0 +1,37 @@
+.signin {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-color: #f8f8f8;
+}
+.signin__logo {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.signin > div > img {
+  object-fit: contain;
+  height: 200px;
+}
+
+.signin__logo > button {
+  margin-top: 100px;
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+
+.signin__logo > button:hover {
+  background-color: white;
+  color: #2e81f4;
+}
+
+.signin__logo > p {
+  color: gray;
+  padding: 10px;
+}
