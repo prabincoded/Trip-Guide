@@ -2,7 +2,13 @@
   width: 270px;
   margin-bottom: 40px;
   margin-right: 80px;
+  transition: transfrom 100ms ease-in;
+  cursor: pointer;
   /* border-bottom: 1px solid gray; */
+}
+
+.places:hover {
+  transform: scale(1.07);
 }
 
 .places__thumbnail {

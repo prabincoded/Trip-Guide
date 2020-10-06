@@ -12,6 +12,7 @@
 }
 
 .header__logo {
+  cursor: pointer;
   height: 150px;
   object-fit: contain;
   object-fit: contain;
