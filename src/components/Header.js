@@ -1,15 +1,17 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Header.css";
 import logo from "../images/app-logo.png";
 import SearchIcon from "@material-ui/icons/Search";
+import { Link } from "react-router-dom";
 
 function Header() {
   const applogo = "../images/app-logo.png";
   return (
     <div className="header">
       <div className="header__left">
-        <img className="header__logo" src={logo} alt="" />
+        <Link to="/">
+          <img className="header__logo" src={logo} alt="" />
+        </Link>
       </div>
       <div className="header__input">
         <input placeholder="Search Places" />
