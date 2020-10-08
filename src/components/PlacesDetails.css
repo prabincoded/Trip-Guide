@@ -51,3 +51,7 @@ button {
   background-color: #2e81f4 !important;
   border-radius: 20px !important;
 }
+
+.placesDetails__review {
+  padding: 20px 20px;
+}
